@@ -1,0 +1,1 @@
+fun avoidObstacles(inputArray: MutableList<Int>): Int = (1..Int.MAX_VALUE).first { jump -> inputArray.all { it % jump != 0 } }
